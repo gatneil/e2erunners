@@ -38,7 +38,7 @@ Here is a repo with scripts to test scale set scenarios: https://github.com/gatn
 
 Let's say we wish to set up a daily test of the scripts in the master branch of this repo. To do this, we could do the following:
 
-First, we would follow the "How To Use" instructions above to set up the E2E Runners test framework. Then, we would define the following script that dowloads the master branch, copies the scripts to the E2E Runners `scripts` directory, then runs `runner.sh`:
+First, we would follow the "How To Use" instructions above to set up the E2E Runners test framework. Then, we would define the following script that dowloads the master branch of the vmssScenarios repo, copies the scripts to the E2E Runners `scripts` directory, then runs `runner.sh`:
 
 ```
 # cd into a working directory that will be easy to clean up later
