@@ -28,4 +28,7 @@ else
     echo "[SUCCEEDED] $6 succeeded."
 fi
 
+echo ''
+echo ''
+
 rm -rf $5
