@@ -62,4 +62,4 @@ Let's say this file is called `test_vmss_scenarios.sh` and is stored in WORKING_
 0 14 * * * bash WORKING_DIR/test_vmss_scenarios.sh
 ```
 
-This will run the tests at 1400 hours UTC (early morning US Pacific time) and report the results to us :).
+This will run the tests at 1400 hours and report the results to us :). (note: I chose 1400 hours because the server running the tests uses UTC time, and 1400 hours UTC time is early morning my time, so when I wake up in the morning I expect to see this email in my inbox; you could of course choose a different time or modify the cron job to run more/less frequently).
